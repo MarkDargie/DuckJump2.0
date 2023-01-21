@@ -6,11 +6,33 @@ public class GameManager : MonoBehaviour
 {
     public static GameManager instance;
 
-    Camera camera;
-
     private void Awake()
     {
         if (instance == null) instance = this;   
     }
 
+    public void StartGameTimer()
+    {
+
+    }
+
+    public void StopGameTimer()
+    {
+
+    }
+
+    public void RestartGame()
+    {
+
+    }
+
+    public void StartGame()
+    {
+
+    }
+
+    public void PauseGame()
+    {
+
+    }
 }

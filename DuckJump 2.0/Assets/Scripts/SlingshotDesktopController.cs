@@ -17,8 +17,8 @@ public class SlingshotDesktopController : MonoBehaviour
     //private Vector3 startPoint;
     //private Vector3 endPoint;
 
-    public Rigidbody2D rigidBody;
-    public CircleCollider2D circleCollider;
+    private Rigidbody2D rigidBody;
+    private CircleCollider2D circleCollider;
 
     private void Awake()
     {
@@ -54,21 +54,21 @@ public class SlingshotDesktopController : MonoBehaviour
         //}
     }
 
-    public void Push(Vector2 force)
-    {
-        rigidBody.AddForce(force, ForceMode2D.Impulse);
-    }
+    //public void Push(Vector2 force)
+    //{
+    //    rigidBody.AddForce(force, ForceMode2D.Impulse);
+    //}
 
-    public void ActivateRigidBody()
-    {
-        rigidBody.isKinematic = false;
-    }
+    //public void ActivateRigidBody()
+    //{
+    //    rigidBody.isKinematic = false;
+    //}
 
-    public void DisableRigidBody()
-    {
-        rigidBody.velocity = Vector3.zero;
-        rigidBody.angularVelocity = 0f;
-        rigidBody.isKinematic = true;
-    }
+    //public void DisableRigidBody()
+    //{
+    //    rigidBody.velocity = Vector3.zero;
+    //    rigidBody.angularVelocity = 0f;
+    //    rigidBody.isKinematic = true;
+    //}
 
 }
