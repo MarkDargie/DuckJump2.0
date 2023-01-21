@@ -3,7 +3,12 @@
 --- !u!78 &1
 TagManager:
   serializedVersion: 2
-  tags: []
+  tags:
+  - Ground
+  - Walls
+  - Trigger
+  - Normal
+  - Wall
   layers:
   - Default
   - TransparentFX
@@ -11,8 +16,8 @@ TagManager:
   - 
   - Water
   - UI
-  - 
-  - 
+  - Ground
+  - Wall
   - 
   - 
   - 
@@ -43,4 +48,10 @@ TagManager:
     locked: 0
   - name: Default
     uniqueID: 0
+    locked: 0
+  - name: Environment
+    uniqueID: 1591540349
+    locked: 0
+  - name: Player
+    uniqueID: 19095261
     locked: 0
